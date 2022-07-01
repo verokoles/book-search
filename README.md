@@ -1,4 +1,4 @@
-# Book Search:book::magnifying_glass:
+# Book Search:book:
 ### RESTful API :arrow_right: GraphQL API
 ## Purpose:heavy_exclamation_mark:
  To take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server.<br>
@@ -18,8 +18,7 @@ When running `npm start`, the first page showed this:
 
    1. [ HEROKU DEPLOY:heavy_plus_sign: ](#heroku)
    2. [ Installation:hammer: ](#installation)
-   3. [ Usage ](#usage)
-   4. [ Contributing ](#contributing)
+   3. [ Contributing:handshake: ](#contributing)
 
    ## Heroku
    
@@ -42,12 +41,6 @@ When running `npm start`, the first page showed this:
      ```
      `npm i heroku` and `heroku create` to create URL of app in Heroku.com
      ```
-    
-
-   ## Usage:
-
-    For usage, please make sure to add comments and submit merge requests to Github.com.
-  
 
    ## Contributing:
    Please be kind and professional when adding to or accessing this repository. Thank you!
