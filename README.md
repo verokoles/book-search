@@ -32,15 +32,21 @@ When running `npm start`, the first page showed this:
      ```
      `npm install` to create node_modules in client, server and root 
      ```
+     I made sure to delete the package-lock.json file in the root first, and downgrade react & react-dom  to 17.0.2 in the client directory.
      ```
      run `mongod` to start MONGODB service in another terminal
      ```
      ```
-     `npm start` to run from client directory
+     `npm start` to run from client directory, `npm run watch` from server directory, and `npm run develop` from the root: 
+     These will run the app with the all functionality to log in, search for, save, and delete books, and log out with saved information with the next login.
      ```
+
+    ![Log In successful, and books are saving](client/public/saved-books.png)
+    ![Deleted books, logged out, logged back in and the one saved book appears](client/public/deleted.png)
      ```
      `npm i heroku` and `heroku create` to create URL of app in Heroku.com
      ```
+     I used GitHub Actions to connect my Heroku application to my account and save all progress. 
 
    ## Contributing:
    Please be kind and professional when adding to or accessing this repository. Thank you!
