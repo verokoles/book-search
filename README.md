@@ -22,7 +22,9 @@ When running `npm start`, the first page showed this:
 ## Heroku
 
 [Click Here to view the application live!](https://fast-ocean-62926.herokuapp.com/)
+Log In successful, and books are saving:
 ![Log In successful, and books are saving](client/public/saved-books.png)
+Deleted books, logged out, logged back in and the one saved book appears:
 ![Deleted books, logged out, logged back in and the one saved book appears](client/public/deleted.png)
 
 ## Installation
@@ -33,6 +35,8 @@ To install dependancies, run the following commands:
      `npm install` to create node_modules in client, server and root
      ```
      I made sure to delete the package-lock.json file in the root first, and downgrade react & react-dom  to 17.0.2 in the client directory.
+
+     `npm install --save apollo-server apollo-server-core apollo-server-express graphql npm install --save-dev @types/graphql @types/express typescript` in root to install Apollo connection and grapql API
      ```
      run `mongod` to start MONGODB service in another terminal
      ```
