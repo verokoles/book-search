@@ -21,9 +21,9 @@ When running `npm start`, the first page showed this:
 
 ## Heroku
 
-[Click Here to view the application live!](https://fast-ocean-62926.herokuapp.com/)
+[Click Here to view the application live!](https://fast-ocean-62926.herokuapp.com/) <br>
 Log In successful, and books are saving:
-![Log In successful, and books are saving](client/public/saved-books.png)
+![Log In successful, and books are saving](client/public/saved-books.png) <br>
 Deleted books, logged out, logged back in and the one saved book appears:
 ![Deleted books, logged out, logged back in and the one saved book appears](client/public/deleted.png)
 
